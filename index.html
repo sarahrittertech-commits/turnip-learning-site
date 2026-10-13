@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Turnip Learning</title>
-  <meta name="description" content="Curated videos for curious kids ages 3 to 9. No ads, no endless feed. Coming to iPhone and iPad.">
+  <meta name="description" content="The safe video world for kids ages 3 to 9: like YouTube, but built for learning, not engagement. Ten years and many versions in the making.">
   <meta property="og:title" content="Turnip Learning">
-  <meta property="og:description" content="Curated videos for curious kids ages 3 to 9. Coming to iPhone and iPad.">
+  <meta property="og:description" content="The safe video world for kids: like YouTube, but built for learning, not engagement.">
   <meta property="og:image" content="img/turnip.png">
   <meta name="theme-color" content="#F6F5FB">
   <link rel="icon" href="img/favicon.png">
@@ -22,9 +22,10 @@
     <span>Turnip Learning</span>
   </a>
   <nav class="topnav" aria-label="Sections">
-    <a href="#who">Who it's for</a>
     <a href="#story">The story</a>
-    <a href="#rebuild">The rebuild</a>
+    <a href="#versions">Versions</a>
+    <a href="#today">Today</a>
+    <a href="#v2">v2 design</a>
   </nav>
 </header>
 
@@ -35,7 +36,7 @@
     <div class="hero-text">
       <p class="eyebrow">For curious kids, ages 3 to 9</p>
       <h1>Turnip Learning</h1>
-      <p class="hero-sub">Go deep on whales, frogs and kitchen science, one hand-picked video at a time. No ads and no endless feed.</p>
+      <p class="hero-sub">The safe video world for kids: like YouTube, but built for learning, not engagement.</p>
 
       <!-- APP STORE LINK (1 of 2): see README, "When Apple approves the app" -->
       <div class="store">
@@ -101,16 +102,211 @@
           <figcaption>Go deep on one thing</figcaption>
         </figure>
       </div>
-      <p class="phones-note">Screens from the current build. A fresh design is on the way.</p>
+      <p class="phones-note">Screens from the current build. The v2 design is on the way.</p>
     </div>
   </section>
 
-  <!-- Four worlds -->
-  <section class="band">
+  <!-- Origin -->
+  <section id="story" class="band">
     <div class="wrap">
-      <p class="eyebrow">What's inside</p>
-      <h2>Four worlds to explore</h2>
-      <p class="lede">Each world is a color kids learn to recognize, and each holds a dozen topics.</p>
+      <div class="origin">
+        <div>
+          <p class="eyebrow">The origin</p>
+          <h2>It started in a barn, not a classroom</h2>
+          <p class="lede">I'm Sarah Ritter. I've spent most of my life as a riding instructor and a Pony Club and 4-H coach.</p>
+          <p>I taught kids as young as four the parts of a pony: nose, tail, eyes, ears. I took high schoolers to national competitions where they had to identify bones, ligaments and teeth. I wanted an app that made that learning interactive.</p>
+          <p>Then I noticed my brother, a special education teacher, and my sister-in-law, a 3rd-grade teacher, needed the same pattern for entirely different topics, like the parts of a flower.</p>
+          <p class="pull">Abstract the interaction, not the content.</p>
+          <p>That was the product insight. Build templates that teachers can fill with their own material.</p>
+        </div>
+        <figure class="cards">
+          <img src="img/2016-card-purple.jpg" width="600" height="895" loading="lazy" alt="A 2016 Turnip Learning business card in purple: the Turnip wordmark, a sprouting turnip, and the line Grow with us.">
+          <img src="img/2016-card-green.jpg" width="600" height="895" loading="lazy" alt="The same business card in green">
+          <figcaption>Business cards from 2016: "Grow with us."</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- The first Turnip -->
+  <section id="first" class="band band-mist">
+    <div class="wrap">
+      <p class="eyebrow">2015–2017</p>
+      <h2>The first Turnip: a platform for teachers</h2>
+      <p class="lede">Schools were buying a tablet or laptop for every student, but the content hadn't caught up.</p>
+
+      <div class="split">
+        <div>
+          <h3>The problem</h3>
+          <ul class="dots">
+            <li>Most teacher-made materials were PowerPoints, PDFs and worksheets: digital, but not interactive.</li>
+            <li>Educational apps didn't capture student progress, so teachers couldn't see who had finished or understood.</li>
+            <li>Professional course-authoring tools were expensive and built for instructional designers. One hour of interactive training could cost $11,000 to $15,000 to produce.</li>
+            <li>Teachers already shared and sold materials on Teachers Pay Teachers, which proved the demand. But that content was mostly print.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>What Turnip did</h3>
+          <ol class="steps">
+            <li>Create a course and upload photos, videos and text.</li>
+            <li>Drop in an interactive template: label the parts of a picture, put steps in order, group similar items, match a term to a photo.</li>
+            <li>Alternate clips and games, so students watch and then practice right away.</li>
+            <li>Assign it on any device, with automatic grading and progress reports.</li>
+            <li>Share or sell finished courses to other teachers in a marketplace.</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <figure>
+          <img src="img/2016-wireframe-fractions.png" width="552" height="492" loading="lazy" alt="A hand-drawn style wireframe titled Fraction Matching: tabs for Introduction, Activity and Summary, four shapes shaded to show fractions, and a list of fractions to match them to">
+          <figcaption>Wireframe: a fraction-matching activity, tested with teachers before any code</figcaption>
+        </figure>
+        <figure>
+          <img src="img/2017-sorting-game.jpg" width="1100" height="578" loading="lazy" alt="The sorting game from the Turnip web app: two boxes labeled Mammals and Reptile on a purple background, with animal names like Whale, Lizard and Crocodiles to sort into them">
+          <figcaption>The live web app at turniplearning.com: sort the animals into the right box</figcaption>
+        </figure>
+      </div>
+
+      <h3 class="sub">What the research said</h3>
+      <p>I interviewed and observed teachers through New Hanover County schools and Watson College of Education events, then surveyed 48 of them.</p>
+      <ul class="stats">
+        <li><strong>79%</strong> had already bought learning content online</li>
+        <li><strong>5–10+</strong> hours a week spent on lesson prep</li>
+        <li><strong>#1</strong> request: easy to use, because there's no time to learn new tools</li>
+      </ul>
+      <p>Personas, user stories and paper prototypes followed, with goals like "a teacher creates an app in under five days" and "a teacher checks out another teacher's course in under two minutes." The Lean Canvas changed every time a guess was proven right or wrong. When surveys showed overlapping vocabulary needs, for example, the audience widened to foreign-language teachers.</p>
+
+      <h3 class="sub">The startup</h3>
+      <p>I incorporated Turnip Learning Inc. and joined the UNCW Center for Innovation and Entrepreneurship. A volunteer team of designers, developers and an intern, with advisors from UNCW's computer science and education faculties, produced a business plan, pitch decks, marketing materials and a working web app. We planned alpha and beta releases with Watson College's network of more than 2,000 P–12 teachers.</p>
+    </div>
+  </section>
+
+  <!-- Versions -->
+  <section id="versions" class="band">
+    <div class="wrap">
+      <p class="eyebrow">Ten years of versions</p>
+      <h2>Same idea, new tools every time</h2>
+      <p class="lede">Every version was something real people could touch and react to. The tools changed dramatically. The habit of building, testing with users and iterating didn't.</p>
+
+      <ol class="versions">
+        <li>
+          <p class="era">2015–2017 · Thesis and startup</p>
+          <h3>A web app I built myself</h3>
+          <p>Teacher login, a course builder, an image-labeling activity and a Postgres data model.</p>
+          <p class="tools">Paper prototypes, Balsamiq, Vertabelo and DBSchema, a DreamFactory REST API, Bootstrap and React, hosted on AWS</p>
+          <p class="learned"><span>Learned</span> Customer discovery, Lean Startup, leading a team, data modeling, and choosing (and mis-choosing) a framework</p>
+        </li>
+        <li>
+          <p class="era">After grad school · Agency work</p>
+          <h3>The same pattern, for a real client</h3>
+          <p>A very similar content platform, delivered to USA Swimming.</p>
+          <p class="tools">A professional agency team</p>
+          <p class="learned"><span>Learned</span> Shipping the pattern for a real client at scale</p>
+        </li>
+        <li>
+          <p class="era">Years ago · Native mobile</p>
+          <h3>A React Native app, compiled in Xcode</h3>
+          <p>Turnip moved from the browser to a native app.</p>
+          <p class="tools">Self-taught: built, compiled and deployed it myself</p>
+          <p class="learned"><span>Learned</span> Mobile build pipelines, native tooling and App Store realities</p>
+        </li>
+        <li>
+          <p class="era">March 2026 · AI rebuild #1</p>
+          <h3>Rebuilt from scratch with Claude</h3>
+          <p>A new iPad app with eight sample videos, built with Claude inside VS Code.</p>
+          <p class="tools">Claude in VS Code, React Native</p>
+          <p class="learned"><span>Learned</span> How fast a product manager can move when AI handles the boilerplate</p>
+        </li>
+        <li>
+          <p class="era">2026 · The current design</p>
+          <h3>Designed in a system first</h3>
+          <p>An iPad kids app with a splash screen, sign-in, a profile picker, browsing by shows and episodes, a video player and a full design system.</p>
+          <p class="tools">AI design-to-code in Magic Patterns, plus Claude. React, TypeScript, Vite, Chakra UI</p>
+          <p class="learned"><span>Learned</span> Designing in a system first, and directing AI as a build partner</p>
+        </li>
+        <li>
+          <p class="era">Fall 2026 · AI rebuild #2</p>
+          <h3>Rebuilt for iPhone and iPad, videos on Mux</h3>
+          <p>Claude reviewed the old code with me and we wrote the plan down first. The previous build had spent weeks stuck on an unused library. The rebuild was a working app for iPhone and iPad in a day, with videos moving to a real streaming service.</p>
+          <p class="tools">Claude, Expo and React Native, Mux video streaming, Supabase planned for accounts and data</p>
+          <p class="learned"><span>Learned</span> When to rebuild instead of refactor, and why writing decisions down matters</p>
+        </li>
+        <li class="is-next">
+          <p class="era">Next</p>
+          <h3>The v2 design, then a family pilot</h3>
+          <p>The new Turnip Learning brand, parent accounts, offline downloads for car trips, and a TestFlight pilot with families at home.</p>
+          <p class="tools">Claude</p>
+          <p class="learned"><span>Goal</span> Turning a prototype into a maintainable product</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Today -->
+  <section id="today" class="band band-sprout">
+    <div class="wrap narrow">
+      <p class="eyebrow">Where the idea is today</p>
+      <h2>From the teacher to the family</h2>
+      <p class="lede">Ten years later, the core belief is the same: kids learn best from short, great content followed by a chance to practice.</p>
+      <p>The shift was personal. Doing virtual school with my daughter, I found myself assigning YouTube videos from creators I loved, like Jack Hartmann, Danny Go and Emily's Wonder Lab, and watching random ads play between them. YouTube is built for engagement, not for kids, and parents feel guilty every time they tap play.</p>
+      <p>So Turnip now starts with a parent sign-in and a friendly profile picker. Kids browse shows and episodes, watch in a kid-sized player with big, simple controls, and play games that keep the original Turnip idea alive: watch a clip, then check what you understood.</p>
+
+      <div class="compare">
+        <div>
+          <h3>What stayed the same</h3>
+          <ul class="dots">
+            <li>Interactive learning paired with video</li>
+            <li>Templates over custom builds</li>
+            <li>Progress that adults can see</li>
+            <li>Trust as the product</li>
+          </ul>
+        </div>
+        <div>
+          <h3>What changed</h3>
+          <ul class="dots">
+            <li><strong>User:</strong> the teacher, now the parent and child</li>
+            <li><strong>Platform:</strong> a Chrome web app, now a native iPhone and iPad app</li>
+            <li><strong>Content:</strong> teacher-made, now curated, kid-safe creator videos plus games</li>
+            <li><strong>Speed:</strong> a semester for the first prototype, now days for a polished app</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- v2 design -->
+  <section id="v2" class="band">
+    <div class="wrap">
+      <p class="eyebrow">October 2026</p>
+      <h2>The v2 design</h2>
+      <p class="lede">A child tester in the target age range called the current look "too babyish." That's fair. So v2 grows up a little without losing the fun.</p>
+
+      <div class="v2-grid">
+        <figure class="v2-mascot">
+          <img src="img/2026-mascot-recolors.png" width="960" height="270" loading="lazy" alt="Four versions of Turnip side by side: the original with a cream root, then three recolors with a white root and a darker outline, from soft lavender to vivid violet">
+          <figcaption>Turnip, recolored rather than redesigned: the original, then three directions with a white root</figcaption>
+        </figure>
+        <div class="v2-notes">
+          <h3>What's decided</h3>
+          <ul class="ticks">
+            <li>Fraunces for the logo and big headlines, DM Sans for everything else</li>
+            <li>A calmer lavender, plum and sprout-green palette taken from Turnip itself</li>
+            <li>Real nature photography: one subject, close and dramatic</li>
+            <li>Simple line icons inside colored circles</li>
+            <li>A set of expressions for Turnip: happy, thinking, surprised, celebrating, sleepy and pointing</li>
+          </ul>
+          <ul class="swatches" aria-label="Brand colors">
+            <li style="--c:#8B86B8"><span>Turnip Lavender</span></li>
+            <li style="--c:#5D5A87"><span>Glasses Plum</span></li>
+            <li style="--c:#B7D77F"><span>Sprout Green</span></li>
+            <li style="--c:#585878"><span>Glasses Slate</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <h3 class="sub">Four worlds to explore</h3>
+      <p>Each world is a bold color kids learn to recognize, and each holds about a dozen topics.</p>
       <ul class="worlds">
         <li class="world world-nature">
           <h3>Nature</h3>
@@ -132,63 +328,41 @@
     </div>
   </section>
 
-  <!-- The story -->
-  <section id="story" class="band band-mist">
-    <div class="wrap">
-      <p class="eyebrow">The story</p>
-      <h2>Eight years and several versions</h2>
-      <p class="lede">I'm Sarah Ritter. I first built Turnip eight years ago, and I've been rebuilding it ever since.</p>
-      <!-- TODO (Sarah): your original idea: what sparked it, who it was for, why "Turnip" -->
-      <p class="todo">Your original idea goes here: what sparked it, who it was for, and why it's called Turnip.</p>
-
-      <ol class="timeline">
-        <li class="pending">
-          <h3><span>2018</span> The first Turnip</h3>
-          <!-- TODO (Sarah): what that first version was and how you built it -->
-          <p class="todo">What the first version was, how you built it, and what it taught you.</p>
-        </li>
-        <li class="pending">
-          <h3><span>The years between</span> More versions</h3>
-          <!-- TODO (Sarah): the versions in between -->
-          <p class="todo">The versions in between: what changed each time, and why you kept coming back to it.</p>
-        </li>
-        <li>
-          <h3><span>Early 2026</span> The prototype</h3>
-          <p>I designed new screens in Magic Patterns and turned them into an iPad app with eight sample videos. It looked right, but most of my time went into fighting the build tools instead of making the app better.</p>
-        </li>
-        <li>
-          <h3><span>September 2026</span> Rebuilt with Claude</h3>
-          <p>I worked with Claude, Anthropic's AI assistant, to review the old code, write the plan down first, and rebuild on a current, simpler stack. By the end of the day it was a working app for iPhone and iPad.</p>
-        </li>
-        <li>
-          <h3><span>October 2026</span> A brand of its own</h3>
-          <p>A child tester in the target age range called the old look "too babyish." That's fair, so Turnip is getting a calmer palette, real nature photography and a set of expressions for the mascot.</p>
-        </li>
-      </ol>
-    </div>
-  </section>
-
   <!-- The rebuild -->
-  <section id="rebuild" class="band band-sprout">
+  <section id="rebuild" class="band band-mist">
     <div class="wrap rebuild">
       <div>
         <p class="eyebrow">Building with Claude</p>
-        <h2>What the rebuild changed</h2>
+        <h2>What this fall's rebuild changed</h2>
         <p class="lede">The value of the old app was its idea and its design. Its foundation was the problem, so we started over and kept the parts that worked.</p>
         <ul class="ticks">
-          <li>Replaced an unused library that was behind weeks of build failures</li>
-          <li>Moved 537 MB of video out of the app and onto a streaming service</li>
-          <li>One codebase for iPhone and iPad, with layouts for each</li>
-          <li>All colors and fonts in one place, so the redesign is a reskin, not a rewrite</li>
-          <li>Privacy rules for kids' apps built in from the start, not added later</li>
+          <li>Removed an unused library that was behind weeks of build failures</li>
+          <li>Moved 537 MB of video out of the app and onto Mux, a streaming service</li>
+          <li>One codebase for iPhone and iPad, with a layout for each</li>
+          <li>Ready for Apple's newest iOS while still running on iPads back to 2018</li>
+          <li>All colors and fonts in one place, so the v2 design is a reskin, not a rewrite</li>
+          <li>Kids' privacy rules built in from the start, not added later</li>
           <li>Every decision written down, so the work carries over from one computer to the next</li>
         </ul>
-        <!-- TODO (Sarah): what working with Claude was like, in your words -->
-        <p class="todo">In your words: what it was like to rebuild something you made eight years ago with an AI partner.</p>
       </div>
       <figure class="rebuild-art">
         <img src="img/turnip.png" width="420" height="478" loading="lazy" alt="">
       </figure>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="band">
+    <div class="wrap">
+      <p class="eyebrow">Along the way</p>
+      <h2>What ten years of building taught me</h2>
+      <ul class="skills">
+        <li><h3>Product</h3><p>Problem discovery, survey design, personas, user stories, MVP definition, Lean Canvas, competitive analysis, pricing, roadmaps and pitching</p></li>
+        <li><h3>Design</h3><p>Paper prototypes, wireframes, usability walkthroughs with teachers, and building and keeping a design system</p></li>
+        <li><h3>Engineering</h3><p>React, React Native, Xcode builds, REST APIs, Postgres and JSON data modeling, AWS hosting and deployment</p></li>
+        <li><h3>Leadership</h3><p>Running a volunteer team, choosing between Scrum and Kanban, owning stack decisions, and working with advisors and an incubator</p></li>
+        <li><h3>Building with AI</h3><p>Using Claude and design-to-code tools to shrink the idea, prototype and test loop, and knowing when to refactor what the AI produced</p></li>
+      </ul>
     </div>
   </section>
 

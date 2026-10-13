@@ -22,15 +22,12 @@ python3 -m http.server 8770
 
 Then open http://127.0.0.1:8770 in a browser.
 
-## Still to fill in
+## Story images
 
-Sections waiting for Sarah's own words are marked twice: an HTML comment
-starting `TODO (Sarah)` and a dashed box on the page (class `todo`).
-Replace the box with real paragraphs and delete the comment.
-
-- The original idea, and why it's called Turnip
-- The first version (2018) and the versions in between
-- What rebuilding it with Claude was like
+`img/` also holds the history: 2016 business cards (generic color versions
+only, no team names or contact details), a 2016 Balsamiq wireframe, the 2017
+web app's sorting game (cropped to the app, no browser bookmarks), and the
+2026 mascot recolor studies. The founding team is deliberately not named.
 
 ## Swap later
 
